@@ -67,7 +67,7 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none; 
-  color: #adff2f;
+  color: #a9abae;
 }
 
 body {
@@ -272,7 +272,7 @@ form {
 	  stroke-width: 3px;
 	}
 	.grandparent:hover rect {
-	  fill: #ff69b4;
+	  fill: #FF9B42;
 	}
 	.children rect.parent,
 	.grandparent rect {
@@ -335,5 +335,5 @@ form {
 	    margin:0 0 4px !important;
 	    padding:0px;
 	    font-size:8px !important;
-        color: #0FA3B1;
+        color: #ff69b4;
     }
