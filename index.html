@@ -11,14 +11,11 @@
   <header>
        <nav>
     <ul>
-      <li><a href="#top" onmouseover="mouseclicksound.play(); >Top</a></li>
-      <li><a href="#national" onmouseover="mouseclicksound.play();>National</a></li>
-      <li><a href="#regional"onmouseover="mouseclicksound.play();>Regional</a></li>
-      <li><a href="#state"onmouseover="mouseclicksound.play();>State-Level</a></li>
-	    <script>	
-var mouseclicksound = new Audio();
-mouseclicksound.src = "mouseclicksound.mp3";
-</script>
+      <li><a href="#top" onmouseover="mouseclicksound.play();" >Top</a></li>
+      <li><a href="#national" onmouseover="mouseclicksound.play();">National</a></li>
+      <li><a href="#regional" onmouseover="mouseclicksound.play();">Regional</a></li>
+      <li><a href="#state" onmouseover="mouseclicksound.play();">State-Level</a></li>
+	    
     <ul>
         </nav>
     </header>
@@ -43,6 +40,10 @@ mouseclicksound.src = "mouseclicksound.mp3";
             <label for="mode3">Males in College (18-24yrs)(in %)</label>
             <input type="radio" id="mode4" name="treeSum" value="femal">
             <label for="mode4">Females in College (18-24yrs) (in %)</label>
+		<script>	
+var mouseclicksound = new Audio();
+mouseclicksound.src = "mouseclicksound.mp3";
+</script>
         </div>
     </form>
 	<p></p>
@@ -62,6 +63,7 @@ mouseclicksound.src = "mouseclicksound.mp3";
     <div>
         <svg id="stacked-bar-chart"></svg>
     </div>
+	
 
     
 <script src="https://d3js.org/d3.v4.min.js"></script>
