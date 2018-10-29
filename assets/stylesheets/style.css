@@ -118,7 +118,7 @@ textarea, input {
 }
 
 textarea:focus, input:focus {
-	border-color: none;
+	border-color: black;
 }
 
 textarea:focus, input:focus, button:focus, button {
