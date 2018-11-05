@@ -95,9 +95,9 @@ label{
   background-color: #ddd;
   padding: 4px 11px;
   font-family: "Muli";
-  font-size: 19px;
+  font-size: 12px;
   cursor: pointer;
-  border-style: dotted solid double dashed;
+  border-style: red green;
   border-width: medium;
   border-color: red green blue yellow;
 }
