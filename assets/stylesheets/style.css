@@ -340,3 +340,10 @@ form {
 	    font-size:8px !important;
         color: #0FA3B1;
     }
+
+<style type="text/css">
+A:link { COLOR: #a9abae; TEXT-DECORATION: none }
+A:visited { COLOR:#a9abae; TEXT-DECORATION: none }
+A:active { COLOR: #a9abae; TEXT-DECORATION: none }
+A:hover { COLOR: blue; TEXT-DECORATION:  none }
+</style>
