@@ -97,7 +97,7 @@ label{
   font-family: "Muli";
   font-size: 12px;
   cursor: pointer;
-  border-style: solid;
+  border-style: dashed;
   border-width: 5px;
   border-color: #8a2be2;
 }
