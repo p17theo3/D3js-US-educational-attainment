@@ -1,22 +1,4 @@
-Skip to content
- 
-Search or jump to…
 
-Pull requests
-Issues
-Marketplace
-Explore
- @p17theo3 Sign out
-0
-0 98 p17theo3/D3js-US-educational-attainment
-forked from ioniodi/D3js-US-educational-attainment
- Code  Pull requests 0  Projects 0  Wiki  Insights  Settings
-D3js-US-educational-attainment/assets/stylesheets/style.css
-de1cc60  7 days ago
-@p17theo3 p17theo3 Update style.css
-@p17theo3 @diogenisAl
-      
-343 lines (292 sloc)  5.43 KB
 /* Stores all CSS variable */
 :root {
     --dark-gray: #212323;
