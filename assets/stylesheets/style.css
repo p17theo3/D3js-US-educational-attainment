@@ -98,7 +98,7 @@ label{
   font-size: 12px;
   cursor: pointer;
   border-style: dashed;
-  border-width: 5px;
+  border-width: medium;;
   border-color: red green blue yellow;
 }
 
