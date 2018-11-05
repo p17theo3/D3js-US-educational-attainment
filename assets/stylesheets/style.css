@@ -97,9 +97,9 @@ label{
   font-family: "Muli";
   font-size: 12px;
   cursor: pointer;
-  border-style: double;
+  border-style: dashed;
   border-width: 5px;
-  border-color: #8a2be2;
+  border-color: red green blue yellow;
 }
 
 .radio-toolbar input[type="radio"]:checked+label {
