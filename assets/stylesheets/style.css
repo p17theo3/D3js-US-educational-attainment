@@ -93,13 +93,13 @@ label{
 
   display: inline-block;
   background-color: #ddd;
-  padding: 3px 8px;
+  padding: 4px 11px;
   font-family: "Muli";
   font-size: 19px;
   cursor: pointer;
-  border-style: solid;
-  border-width: 5px;
-  border-color: #8a2be2;
+  border-style: dotted solid double dashed;
+  border-width: medium;
+  border-color: red green blue yellow;
 }
 
 .radio-toolbar input[type="radio"]:checked+label {
