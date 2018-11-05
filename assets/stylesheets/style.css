@@ -1,3 +1,22 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @p17theo3 Sign out
+0
+0 98 p17theo3/D3js-US-educational-attainment
+forked from ioniodi/D3js-US-educational-attainment
+ Code  Pull requests 0  Projects 0  Wiki  Insights  Settings
+D3js-US-educational-attainment/assets/stylesheets/style.css
+de1cc60  7 days ago
+@p17theo3 p17theo3 Update style.css
+@p17theo3 @diogenisAl
+      
+343 lines (292 sloc)  5.43 KB
 /* Stores all CSS variable */
 :root {
     --dark-gray: #212323;
@@ -55,7 +74,7 @@ nav ul {
   list-style-type: none;
   margin: 0 auto;
   padding-left:0;
-  text-align: right;
+  text-align:right;
   width: 960px; 
   max-width: 100%;
 }
@@ -93,13 +112,13 @@ label{
 
   display: inline-block;
   background-color: #ddd;
-  padding: 4px 11px;
+  padding: 3px 8px;
   font-family: "Muli";
-  font-size: 12px;
+  font-size: 19px;
   cursor: pointer;
-  border-style: dashed;
-  border-width: medium;;
-  border-color: red green blue yellow;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #8a2be2;
 }
 
 .radio-toolbar input[type="radio"]:checked+label {
@@ -340,10 +359,3 @@ form {
 	    font-size:8px !important;
         color: #0FA3B1;
     }
-<style type="text/css">
-A:link { COLOR: #a9abae; TEXT-DECORATION: none }
-A:visited { COLOR:#a9abae; TEXT-DECORATION: none }
-A:active { COLOR: #a9abae; TEXT-DECORATION: none }
-A:hover { COLOR: blue; TEXT-DECORATION:  none }
-</style>
-
