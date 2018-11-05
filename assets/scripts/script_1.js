@@ -20,7 +20,7 @@ function donutChart() {
     var width,
         height,
         margin = {top: 10, right: 10, bottom: 10, left: 10},
-        colour = d3.scaleOrdinal().range(["#0FA3B1", "#00ff7f", "#ff00ff", "#40e0d0", "#00ff00", "#0000ff", "#ff0000"]), // colour scheme
+        colour = d3.scaleOrdinal().range(["#0FA3B1", "#99B898", "#FECEAB", "#FF847C ", "#E84A5F", "#2A363B ", "#E8175D"]), // colour scheme
         variable, // value in data that will dictate proportions on chart
         category, // compare data by
         padAngle, // effectively dictates the gap between slices
