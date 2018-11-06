@@ -15,13 +15,6 @@ var margin = {top: 30, right: 0, bottom: 20, left: 0},
 
 
 
-@media (min-width: 575px) {
-  article {
-    width: 550px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 
 
 
