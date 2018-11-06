@@ -87,6 +87,7 @@ label{
  background-color: white; 
     color: black; 
     border: 2px outset #de581a;
+    border-style: dashed;
     padding: 5px 10px;
     text-align: center;
     text-decoration: none;
