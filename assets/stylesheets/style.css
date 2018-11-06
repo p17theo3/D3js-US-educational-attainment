@@ -17,6 +17,24 @@
     --code-font: ;
 }
 
+
+
+
+
+@media (min-width: 575px) {
+  article {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+
+
+
+
+
 * {
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
