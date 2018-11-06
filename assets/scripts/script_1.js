@@ -16,14 +16,6 @@ var donut = donutChart()
             .call(donut); // draw chart in div
     });
 
-
-
-
-
-
-
-
-
 function donutChart() {
     var width,
         height,
