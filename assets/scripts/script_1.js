@@ -17,13 +17,7 @@ var donut = donutChart()
     });
 
 
-@media (min-width: 575px) {
-  article {
-    width: 550px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
+
 
 
 
