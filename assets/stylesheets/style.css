@@ -352,3 +352,11 @@ form {
 	    font-size:8px !important;
         color: #0FA3B1;
     }
+
+
+<style type="text/css">
+A:link { COLOR: black; TEXT-DECORATION: none }
+A:visited { COLOR: black; TEXT-DECORATION: none }
+A:active { COLOR: black; TEXT-DECORATION: none }
+A:hover { COLOR: blue; TEXT-DECORATION:  none }
+</style>
