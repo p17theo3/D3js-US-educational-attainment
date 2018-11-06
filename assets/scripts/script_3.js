@@ -20,6 +20,20 @@ var colors = d3.scaleOrdinal()
 //.range(["hsl(190, 69%, 65%)", "hsl(177, 69%, 65%)", "hsl(144, 69%, 65%)", "hsl(100, 69%, 65%)", "hsl(47, 69%, 65%)", "hsl(28, 69%, 65%)", "hsl(28, 69%, 65%)"]);
 
 
+
+@media (min-width: 575px) {
+  article {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+
+
+
+
 var xaxis = d3.axisBottom(xscale);
 
 var yaxis = d3.axisLeft(yscale)
