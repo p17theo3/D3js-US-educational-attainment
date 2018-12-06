@@ -8,6 +8,7 @@ var donut = donutChart()
         .padAngle(0.005) // effectively dictates the gap between slices
         .variable('Percent')
         .category('Education Level');
+         is3D: true
 
     d3.tsv('assets/data/species.tsv', function(error, data) {
         if (error) throw error;
