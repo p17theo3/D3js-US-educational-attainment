@@ -1,14 +1,14 @@
 // Script 1
-// Data Visualization III - Pie Chart
+// Data Visualization III - Pie Chart            donutChart()
 
-var donut = donutChart()
+chart.draw (data, {
         .width(960)
         .height(450)
         .cornerRadius(0) // sets how rounded the corners are on each slice
         .padAngle(0.005) // effectively dictates the gap between slices
         .variable('Percent')
         .category('Education Level');
-         is3D: true
+         is3D: true });
 
     d3.tsv('assets/data/species.tsv', function(error, data) {
         if (error) throw error;
