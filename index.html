@@ -42,9 +42,9 @@ mouseclicksound.src = "mouseclicksound.mp3";
 	    
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active"><a class="nav-link" href="#top" onmouseover="mouseclicksound.play();" >Top</a></li>
-      <li class="nav-item active"><a class="nav-link" href="#national" onmouseover="mouseclicksound.play();" >National</a></li>
-      <li class="nav-item active"><a class="nav-link" href="#regional" onmouseover="mouseclicksound.play();" >Regional</a></li>
-      <li class="nav-item active"><a class="nav-link" href="#state" onmouseover="mouseclicksound.play();" >State-Level</a></li>
+      <li class="nav-item active"><a class="nav-link" href="#national" onmouseover="mouseclicksound.play();" onclick="gamoshistos1()" >National</a></li>
+      <li class="nav-item active"><a class="nav-link" href="#regional" onmouseover="mouseclicksound.play();" onclick="gamoshistos2()" >Regional</a></li>
+      <li class="nav-item active"><a class="nav-link" href="#state" onmouseover="mouseclicksound.play();" onclick="gamoshistos3()">State-Level</a></li>
     </ul>
         </div>
         </div>
@@ -55,11 +55,11 @@ mouseclicksound.src = "mouseclicksound.mp3";
         
 	
 	<p><br></p>
-    <h2 class="subtitle">Nation-Wide Education Level of Population in Schooling</h2>
+    <h2  id="shistom" class="subtitle">Nation-Wide Education Level of Population in Schooling</h2>
 	
     <svg id="pie-chart" width="960" height="450"></svg><a name="regional"></a>
     <p><br><br><br></p>
-    <h2 class="subtitle">Educational Attainment: Region-level Breakdown of University Students</h2>
+    <h2  id="shistom2" class="subtitle">Educational Attainment: Region-level Breakdown of University Students</h2>
 	
     <form id="tree-form">
         <div class="radio-toolbar">
@@ -77,7 +77,7 @@ mouseclicksound.src = "mouseclicksound.mp3";
     <div id="chart"></div>
 	<a name="state"></a>
     <p><br><br></p>
-    <h2 class="subtitle">Education Level of Population in Schooling: State-level Breakdown</h2>
+    <h2  id="shistom3" class="subtitle">Education Level of Population in Schooling: State-level Breakdown</h2>
 	
     <form id="stack-form">
         <div class="radio-toolbar">
@@ -123,6 +123,41 @@ mouseclicksound.src = "mouseclicksound.mp3";
          responsiveVoice.cancel();
     	});
 });
+
+
+
+
+function gamoshistos1() {
+document.getElementById("shistom2").style.display = "none";
+document.getElementById("shistom3").style.display = "none";
+document.getElementById("shistom").style.display = "block";
+document.getElementById("tree-form").style.display = "none";
+document.getElementById("stack-form").style.display = "none";
+document.getElementById("stacked-bar-chart").style.display = "none";
+document.getElementById("pie-chart").style.display = "block";
+document.getElementById("stacked-bar-chart").style.display = "none";
+document.getElementById("chart").style.display = "none";
+}
+function gamoshistos2() {
+document.getElementById("shistom3").style.display = "none";
+document.getElementById("shistom").style.display = "none";
+document.getElementById("stack-form").style.display = "none";
+document.getElementById("pie-chart").style.display = "none";
+document.getElementById("stacked-bar-chart").style.display = "none";
+document.getElementById("chart").style.display = "block";
+document.getElementById("shistom2").style.display = "block";
+document.getElementById("tree-form").style.display = "block";
+}
+function gamoshistos3() {
+document.getElementById("tree-form").style.display = "none";
+document.getElementById("shistom2").style.display = "none";
+document.getElementById("shistom3").style.display = "block";
+document.getElementById("shistom").style.display = "none";
+document.getElementById("stack-form").style.display = "block";
+document.getElementById("pie-chart").style.display = "none";
+document.getElementById("stacked-bar-chart").style.display = "block";
+document.getElementById("chart").style.display = "none";
+}
 </script>
 	
  
