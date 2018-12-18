@@ -1,9 +1,9 @@
 // javascript
 var data = [
-    {"proto": "αγραπανέυσεις", "deutero": 11.8}, 
-    {"proto": "καλιέργειες", "deutero": 53.1},
-    {"proto": "κυπευτική γή", "deutero": 2.0},
-    {"proto": "μόνιμεςΚαλιεργειές", "deutero": 33.2},
+    {"proto": "Aγραπανέυσεις", "deutero": 11.8}, 
+    {"proto": "Kαλιέργειες", "deutero": 53.1},
+    {"proto": "Kυπευτική γή", "deutero": 2.0},
+    {"proto": "Mόνιμες Καλιεργειές", "deutero": 33.2},
 ];
 
 var svgWidth = 500, svgHeight = 500, radius =  160;
