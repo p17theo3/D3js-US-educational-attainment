@@ -1,6 +1,6 @@
 // javascript
 var data = [
-    {"proto": "τεστ ", "deutero": 11.8}, 
+    {"proto": "", "deutero": 11.8}, 
     {"proto": "", "deutero": 53.1},
     {"proto": "", "deutero": 2.0},
     {"proto": "", "deutero": 33.2},
@@ -18,7 +18,7 @@ var g = svg.append("g")
 
 
 var color = d3.scaleOrdinal()
-  .range(["#300527", "#00F4F9" , "#05F900", "#1bd327"]);
+  .range(["#7dce94", "#3d3d3f" , "#f6f5f3", "#f9f8fd"]);
 
 var pie = d3.pie().value(function(d) { 
      return d.deutero; 
