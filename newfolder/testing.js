@@ -1,7 +1,7 @@
 // javascript
 var data = [
-    {"proto": "", "deutero": 11.8}, 
-    {"proto": "", "deutero": 53.1},
+    {"proto": "TEST", "deutero": 11.8}, 
+    {"proto": "TEST", "deutero": 53.1},
     {"proto": "", "deutero": 2.0},
     {"proto": "", "deutero": 33.2},
 ];
