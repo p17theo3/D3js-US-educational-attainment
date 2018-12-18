@@ -6,7 +6,7 @@ var data = [
     {"proto": "Mόνιμες Καλιεργειές ", "deutero": 33.2},
 ];
 
-var svgWidth = 500, svgHeight = 500, radius =  190;
+var svgWidth = 500, svgHeight = 500, radius =  210;
 var svg = d3.select('#chart').append("svg")
     .attr("width", svgWidth)
     .attr("height", svgHeight);
