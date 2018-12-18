@@ -1,9 +1,9 @@
 // javascript
 var data = [
-    {"proto": "TEST", "deutero": 11.8}, 
-    {"proto": "TEST", "deutero": 53.1},
-    {"proto": "", "deutero": 2.0},
-    {"proto": "", "deutero": 33.2},
+    {"proto": "ΑΓΡΑΠΑΝΕΥΣΕΙΣ", "deutero": 11.8}, 
+    {"proto": "ΑΡΟΤΡΑΙΕΣ ΚΑΛΙΕΡΓΕΙΕΣΣ", "deutero": 53.1},
+    {"proto": "ΚΗΠΕΥΤΙΚΗ ΓΗ", "deutero": 2.0},
+    {"proto": "ΜΟΝΙΜΕΣ ΚΑΛΛΙΕΡΓΕΙΕΣ", "deutero": 33.2},
 ];
 
 var svgWidth = 500, svgHeight = 300, radius =  Math.min(svgWidth, svgHeight) / 2;
